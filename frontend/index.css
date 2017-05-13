@@ -1,16 +1,37 @@
-circle {
-    fill: rgb(31, 119, 180);
+
+/* Global */
+.global circle {
+    fill: green;
     fill-opacity: .25;
     stroke: rgb(31, 119, 180);
     stroke-width: 1px;
 }
 
-.leaf circle {
+.global .leaf circle {
+    fill: yellow;
+    fill-opacity: 1;
+}
+
+.global text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+/* Dalian */
+
+.dalian circle {
+    fill: rgb(38, 119, 180);
+    fill-opacity: .25;
+    stroke: rgb(31, 119, 180);
+    stroke-width: 1px;
+}
+
+.dalian .leaf circle {
     fill: #ff7f0e;
     fill-opacity: 1;
 }
 
-text {
+.dalian text {
     font: 10px sans-serif;
     text-anchor: middle;
 }
