@@ -1,0 +1,24 @@
+{
+  "name": "pigit-analysing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/For-learning/pigit-analysing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/For-learning/pigit-analysing/issues"
+  },
+  "homepage": "https://github.com/For-learning/pigit-analysing#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jsonfile": "^3.0.0",
+    "lodash": "^4.17.4"
+  }
+}

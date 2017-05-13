@@ -1,0 +1,21 @@
+{
+  "name": "pigit-analysing",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Crown Cao <crown_0726@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/For-learning/pigit-analysing",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "frontend/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
